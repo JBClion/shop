@@ -43,8 +43,8 @@ function addCatalogRow(item, price){
     row += '<td>' + item +'</td>';
 	row += '<td>' + price.toFixed(2) +'$</td>';
     row += '<td class="quantity" id="' + item + '_quantity">' + 0 +'</td>';
-	row += '<td><button onclick="add(\'' + item + '\')" class="btn btn-default">+</button> ';
-	row += '<button onclick="del(\'' + item + '\')" class="btn btn-default">-</button></td>';
+	row += '<td><button onclick="del(\'' + item + '\')" class="btn btn-default">-</button> ';
+	row += '<button onclick="add(\'' + item + '\')" class="btn btn-default">+</button></td>';
 	row += '</tr>',
     
     $('#catalog > tbody:last-child').append(row);  
