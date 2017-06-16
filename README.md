@@ -7,7 +7,7 @@ Before to clone, install and run this app, it is mandatory to install nodejs and
 Open terminal
 
 ```
-mkdir demp
+mkdir demo
 cd demo
 git clone https://github.com/JBClion/shop.git
 cd shop
