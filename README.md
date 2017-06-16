@@ -1,7 +1,7 @@
 # shop
 Simple Nodejs demo Grocery Shop
 
-Before to clone, install and run this app, it is mandatory to install nodejs and npm on your machine
+Before to clone, install and run this app, it is mandatory to install git client, nodejs and npm on your machine.
 
 # Clone repo
 Open terminal
