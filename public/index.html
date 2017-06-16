@@ -1,0 +1,99 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css"> 
+        <link rel="stylesheet" type="text/css" href="./css/style.css"> 
+    </head>
+    
+    <body>
+	
+		<div class="container">
+	  
+			<div class="row">
+				  <div class="col-md-12 title">
+					  <h2>R3PI GROCERY STORE</h2>
+					  <hr/>
+				</div>
+			</div>    
+		  
+			<section id="cart" style="display:none">
+				
+				<div class="row">
+					<div class="col-md-12 tablecatalog">
+						<table id="catalog" class="table">
+							<thead>
+							<tr>
+								<th class="col-md-2">Item</th>
+								<th class="col-md-2">Price</th>
+								<th class="col-md-2">in basket</th>
+								<th class="col-md-2">Actions</th>
+							</tr>
+							</thead>
+							<tbody></tbody>
+						</table>
+					</div>
+				</div> 
+			
+				<div class="row">
+					<div class="col-md-12 center">
+						<hr/>
+						<button type="button" class="btn btn-default" onclick="checkout()">CHECKOUT</button>
+					</div>
+				</div>
+			</section>
+
+			<section id="bill">
+			
+				<div class="row">
+					<div class="col-md-12" style="text-align:center;margin-top:15px;">
+						<table id="receipt" class="table">
+							<thead>
+								<tr>
+									<th class="col-md-2">Quantity</th>
+									<th class="col-md-2">Item</th>
+									<th class="col-md-2">Price</th>
+									<th class="col-md-2">Total</th>
+								</tr>
+							</thead>
+							<tbody></tbody>
+						</table>
+											  
+						<table class="table">
+							<thead>
+								<tr>
+									<th class="col-md-6"></th>
+									<th class="col-md-2"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="left">TOTAL WITHOUT VAT</td>
+									<td id="subtotal"></td>
+								</tr>
+								<tr>
+									<td class="left">VAT (7.6%)</td>
+									<td id="vat"></td>
+								</tr>
+								<tr>
+									<td class="left">TOTAL WITH VAT</td>
+									<td id="total"></td>
+								</tr>
+						</table>                                 
+					</div>
+				</div> 
+				
+				<div class="row">
+					<div class="col-md-12 center">
+						<hr/>
+						<button type="button" class="btn btn-default" onclick="back()">BACK</button>
+					</div>
+				</div>
+
+			</section> 
+		</div>
+		
+		<script src="./js/jquery.js"></script> 
+		<script src="./js/services.js"></script>
+		
+	</body>
+</html>
