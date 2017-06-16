@@ -19,4 +19,5 @@ In same folder
 ```
 mpm install
 node server.js
+visit http://localhost:8000/
 ```
