@@ -17,7 +17,7 @@ cd shop
 In same folder
 
 ```
-mpm install
+npm install
 node server.js
 visit http://localhost:8000/
 ```
